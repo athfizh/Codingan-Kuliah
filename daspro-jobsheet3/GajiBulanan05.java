@@ -23,7 +23,7 @@ public class GajiBulanan05 {
         float pajak = gajiKotorSementara * 0.05f;
         System.out.println("Total pajak karyawan: " + pajak);
 
-        float gajibersih = gajiKotorSementara - pajak;
+        double gajibersih = gajiKotorSementara - pajak;
         System.out.println("Total gaji bersih karyawan: " + gajibersih);
     }
 }
